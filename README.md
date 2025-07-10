@@ -1,2 +1,39 @@
-# titanic-ml
+# Titanic Survival Prediction 🚢
+
 This project uses Python, pandas, NumPy, and scikit-learn to predict whether passengers survived the Titanic disaster based on available features.
+
+## 📊 Features Used:
+- Passenger Class (pclass)
+- Sex (encoded)
+- Age
+- Number of siblings/spouses aboard (sibsp)
+- Number of parents/children aboard (parch)
+- Fare
+
+## ⚙️ Libraries:
+- pandas
+- NumPy
+- matplotlib
+- seaborn
+- scikit-learn
+
+## ✅ Model:
+Logistic Regression  
+Accuracy: ~78–82% (varies slightly)
+
+## 📈 Visualizations:
+- Confusion matrix
+- Survival rate by gender
+
+## 🧠 What I Learned:
+- Data preprocessing and cleaning
+- Feature selection and encoding
+- Training a machine learning model
+- Evaluating accuracy and the confusion matrix
+
+---
+
+## 🚀 How to Run:
+1. Clone the repo
+2. Install required libraries: `pip install pandas numpy matplotlib seaborn scikit-learn`
+3. Run `titanic_survival_prediction.ipynb` in Jupyter Notebook
